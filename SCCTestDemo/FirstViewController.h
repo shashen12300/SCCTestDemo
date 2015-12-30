@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : BaseViewController
+@interface FirstViewController : UIViewController
 
 @end

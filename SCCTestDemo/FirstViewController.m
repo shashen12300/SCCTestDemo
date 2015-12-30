@@ -10,4 +10,9 @@
 
 @implementation FirstViewController
 
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    self.view.backgroundColor = [UIColor greenColor];
+}
+
 @end

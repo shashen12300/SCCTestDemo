@@ -7,25 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0EF8E9AA652DBE2745A7D5C8CD2E3BDE /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 475630B9EDA128A2FEA091C9D63AED3F /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		0F8A8E0D6FAEBF758E0B4D620335F094 /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 5696C1F124500924CE065F8CEA33F978 /* FMDatabasePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		282081E035E7A843068E8BCC2E07C217 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = B42D69CD99479A04B6A708D9A1817E54 /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		313531CEDA0294311D87B4F4C3F073F4 /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = CC2AA98E70EF15C6F8A88750F2680320 /* FMDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		36BE2FD561C6F5F18543FC3ED0E2B4CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		3D0F69C4CA35EB6A1F686BA88B19B4F6 /* FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6258E712F1089BFF63A6B28B87669F03 /* FMDB-dummy.m */; };
+		007857B5C68D70C624913051A536C679 /* CDataScanner_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 35687539C683CB1E44C28687BA885C51 /* CDataScanner_Extensions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0A3BFAFFF08AB003ED586EC46916DAB3 /* NSDictionary_JSONExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B11CE7BBD7BBA7BDEB72D670F61ECC /* NSDictionary_JSONExtensions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0EF8E9AA652DBE2745A7D5C8CD2E3BDE /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = AF9FE550B6EA09ECDCC834CD84169A97 /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0F8A8E0D6FAEBF758E0B4D620335F094 /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 35331C9A88C2B569C240496515FC1412 /* FMDatabasePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		282081E035E7A843068E8BCC2E07C217 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D445E5A5B8B360D1A8AAB19F35CF167 /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2A999F321116D678BDEDD159EC5B9AC6 /* CJSONDeserializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C70990D60BED25D05B201EC493B24EB /* CJSONDeserializer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		313531CEDA0294311D87B4F4C3F073F4 /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = E69D9243515E8CE2FECC62115A027B12 /* FMDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D0F69C4CA35EB6A1F686BA88B19B4F6 /* FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2877774362AFE76F8B4E1FFEC51773F0 /* FMDB-dummy.m */; };
+		51DD2D0E237F7BC2771B52BD71686E6F /* CDataScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = AFEABEEC36123189FC67BCDA90171A5A /* CDataScanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		587B76A3E381AF7C3EFFDF6754D39288 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		A350C5704A1F233DAD830E081E00F8C1 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F71FF0833DB53F536450483211F7CD /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		A4524A1DF4BD3DEC5A5B5B1513654A4D /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */; };
-		B418C9BDCF8C6BAC2E3942F157BB6D4C /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = B007C91029361327653F7DCE2E7599C0 /* FMDatabaseAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CA027706DD6805766F1F4EC548E72440 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B2DE6BA720930EA5A25DEAD9804D47 /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		D0C5FF5485EAA2CDA03E9796B407697A /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = AD57EB2E148CBB0484960AFCFB4C7588 /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D0D5FFE53407F16C9CD3D0ECF43ACE93 /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 990191AC5970F54BD454007D4FC0B2C3 /* FMDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DEFA3504695E9DFDE1177DAB22884470 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = B00FE45DA7886136FAD44633735B4DE3 /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		F977B243321331B58666E9284634101A /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = FA296DC0E25687826F8CB594F359BD14 /* FMResultSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61CB38721F678597DCADFFA8055302DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		63612D2DB86DA35DA965A1FAE3A63C45 /* CJSONDeserializer.h in Headers */ = {isa = PBXBuildFile; fileRef = E9AF0A65285AB4E1845C24891BC65A86 /* CJSONDeserializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A8D15213A29740A747DCB1CC26A52EB /* CJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F94853B40E20AD5D5BB32A309733914 /* CJSONSerialization.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7AE4EAA597518C5B392FE51D4CCE767B /* CJSONSerializedData.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B038BD70C7E0F685CB53C05840A757C /* CJSONSerializedData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81B8ECCAF46DF0051B268D9B4ED7DDE8 /* CJSONSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = AD341DE9869CFAB1E62C6FE4B7C19AD0 /* CJSONSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C0D042D56FA4D10A9773B2C3FC02922 /* CDataScanner_Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = E340BF4EFD2829828217EA8D07D9EBFA /* CDataScanner_Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9139720A86CC1FF4E78587EA87F25B73 /* CDataScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 549ABB3B2E37E9AEBA1314D79FEE041F /* CDataScanner.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		97612096A0D4508584A03B7BC29D0588 /* CFilteringJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 911252690E18A307ADFC88E0B71BE7C2 /* CFilteringJSONSerializer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9AC2E19009E9988034A7314F2881EC8F /* CJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = EB19A8E8CB2EC4EB2A10A5D90B269028 /* CJSONSerializer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9BC8D891F5AA6C3D76CCD7B5A0E2D4BD /* NSDictionary_JSONExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 358CB84FE6F218068DC5BBF8B0113806 /* NSDictionary_JSONExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A350C5704A1F233DAD830E081E00F8C1 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C917B59594B6EFC0A090331F57C383F /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A946518328E219EDFECEF842B4F488E3 /* CJSONSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = E4D4C12FFB8203DF60180626D0D3269D /* CJSONSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD4B60FFDB22DE25177453B6B43E1052 /* CJSONScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = BA0DBEBF2573296A81958234147E10CD /* CJSONScanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B418C9BDCF8C6BAC2E3942F157BB6D4C /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 39F9E8F3CE284341C352BF8529ED0755 /* FMDatabaseAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCFAF11893C21955ADD2E6D4D16B6BD6 /* CFilteringJSONSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 61D0CB7D2E91308D897EB7887404C2CB /* CFilteringJSONSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD2C9D5E05350AF5B4419925BEDA41C3 /* JSONRepresentation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F47E86D97280CB3ED18C7D96240DD11 /* JSONRepresentation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA027706DD6805766F1F4EC548E72440 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B96186EAB159CC7240C9E1C492D09AE /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CE9F31429A06F27B04026EAD8947233B /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */; };
+		CECBE0EE60C6784FD816E6E605FC2C4A /* TouchJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A695C7D0699D85C17175D7F6CEA1C9 /* TouchJSON-dummy.m */; };
+		D066F85576A54A1EF7CDCF9062F32E88 /* CJSONSerializedData.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F661FDFE426DAE6BEA6C7E08BF3D0E /* CJSONSerializedData.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D0C5FF5485EAA2CDA03E9796B407697A /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E8AD54926C9C2FA10E2B15DC75D9D5 /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0D5FFE53407F16C9CD3D0ECF43ACE93 /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = FE70D287565B8EE33E12DDBA06803002 /* FMDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7FFF59EF4340B70B7DD349E11FAC006 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		DEFA3504695E9DFDE1177DAB22884470 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DEC10F837E9A8968052F41F6B34EAF5 /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F5C1588CEFDA717BC2503723CF6A3E81 /* CJSONScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 59279A5E303164B2A3DE20412A01D13B /* CJSONScanner.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F977B243321331B58666E9284634101A /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B75E9437E3519106B6E7D0399061F2D /* FMResultSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A06AB1643FA0EA023EF72341CB59BE89 /* PBXContainerItemProxy */ = {
+		69249C4305A2FA8D32638E22AA6EA276 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C64A511A83A8F5419CD12027269051F9;
+			remoteInfo = TouchJSON;
+		};
+		CC1AAFC3D7E2EF5635A03C5A24437EA2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -35,47 +63,78 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C70990D60BED25D05B201EC493B24EB /* CJSONDeserializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJSONDeserializer.m; path = Source/JSON/CJSONDeserializer.m; sourceTree = "<group>"; };
 		10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		18A695C7D0699D85C17175D7F6CEA1C9 /* TouchJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TouchJSON-dummy.m"; sourceTree = "<group>"; };
 		272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		2877774362AFE76F8B4E1FFEC51773F0 /* FMDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FMDB-dummy.m"; sourceTree = "<group>"; };
+		2D445E5A5B8B360D1A8AAB19F35CF167 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = src/fmdb/FMDatabaseQueue.m; sourceTree = "<group>"; };
+		35331C9A88C2B569C240496515FC1412 /* FMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
+		35687539C683CB1E44C28687BA885C51 /* CDataScanner_Extensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CDataScanner_Extensions.m; path = Source/Extensions/CDataScanner_Extensions.m; sourceTree = "<group>"; };
+		358CB84FE6F218068DC5BBF8B0113806 /* NSDictionary_JSONExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NSDictionary_JSONExtensions.h; path = Source/Extensions/NSDictionary_JSONExtensions.h; sourceTree = "<group>"; };
 		37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		382DF47CB9605E0CE883798BDEDA3023 /* libFMDB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFMDB.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		39F9E8F3CE284341C352BF8529ED0755 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = src/fmdb/FMDatabaseAdditions.h; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3FF6CC2D423559E28AE3F55AFFA4CA33 /* libFMDB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFMDB.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		475630B9EDA128A2FEA091C9D63AED3F /* FMDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
+		4B75E9437E3519106B6E7D0399061F2D /* FMResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
+		4CD627DE4A84001EA4D47B709B0A59DC /* TouchJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TouchJSON-prefix.pch"; sourceTree = "<group>"; };
 		4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
-		5696C1F124500924CE065F8CEA33F978 /* FMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
-		6258E712F1089BFF63A6B28B87669F03 /* FMDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FMDB-dummy.m"; sourceTree = "<group>"; };
+		50B11CE7BBD7BBA7BDEB72D670F61ECC /* NSDictionary_JSONExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NSDictionary_JSONExtensions.m; path = Source/Extensions/NSDictionary_JSONExtensions.m; sourceTree = "<group>"; };
+		549ABB3B2E37E9AEBA1314D79FEE041F /* CDataScanner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CDataScanner.m; path = Source/CDataScanner.m; sourceTree = "<group>"; };
+		59279A5E303164B2A3DE20412A01D13B /* CJSONScanner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJSONScanner.m; path = Source/JSON/CJSONScanner.m; sourceTree = "<group>"; };
+		5B96186EAB159CC7240C9E1C492D09AE /* FMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
+		61D0CB7D2E91308D897EB7887404C2CB /* CFilteringJSONSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CFilteringJSONSerializer.h; path = Source/Experimental/CFilteringJSONSerializer.h; sourceTree = "<group>"; };
 		6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
+		6B038BD70C7E0F685CB53C05840A757C /* CJSONSerializedData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJSONSerializedData.h; path = Source/Experimental/CJSONSerializedData.h; sourceTree = "<group>"; };
+		7AE65B6513B5FC1B1F455C035B092771 /* TouchJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TouchJSON.xcconfig; sourceTree = "<group>"; };
+		7C917B59594B6EFC0A090331F57C383F /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = src/fmdb/FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		8DA7CAD5E7759AC6FF5A7A99BB807D84 /* FMDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-prefix.pch"; sourceTree = "<group>"; };
+		8DEC10F837E9A8968052F41F6B34EAF5 /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
+		8F94853B40E20AD5D5BB32A309733914 /* CJSONSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJSONSerialization.m; path = Source/Experimental/CJSONSerialization.m; sourceTree = "<group>"; };
+		911252690E18A307ADFC88E0B71BE7C2 /* CFilteringJSONSerializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CFilteringJSONSerializer.m; path = Source/Experimental/CFilteringJSONSerializer.m; sourceTree = "<group>"; };
+		94102BC55E37ABBDAB22CBA5B06752EF /* FMDB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.xcconfig; sourceTree = "<group>"; };
 		98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
-		990191AC5970F54BD454007D4FC0B2C3 /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
+		9F47E86D97280CB3ED18C7D96240DD11 /* JSONRepresentation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONRepresentation.h; path = Source/JSON/JSONRepresentation.h; sourceTree = "<group>"; };
 		A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
-		AD57EB2E148CBB0484960AFCFB4C7588 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
-		B007C91029361327653F7DCE2E7599C0 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = src/fmdb/FMDatabaseAdditions.h; sourceTree = "<group>"; };
-		B00FE45DA7886136FAD44633735B4DE3 /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
-		B3B2DE6BA720930EA5A25DEAD9804D47 /* FMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
-		B42D69CD99479A04B6A708D9A1817E54 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = src/fmdb/FMDatabaseQueue.m; sourceTree = "<group>"; };
+		AD341DE9869CFAB1E62C6FE4B7C19AD0 /* CJSONSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJSONSerialization.h; path = Source/Experimental/CJSONSerialization.h; sourceTree = "<group>"; };
+		AF9FE550B6EA09ECDCC834CD84169A97 /* FMDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
+		AFEABEEC36123189FC67BCDA90171A5A /* CDataScanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDataScanner.h; path = Source/CDataScanner.h; sourceTree = "<group>"; };
+		BA0DBEBF2573296A81958234147E10CD /* CJSONScanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJSONScanner.h; path = Source/JSON/CJSONScanner.h; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		CC2AA98E70EF15C6F8A88750F2680320 /* FMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = src/fmdb/FMDB.h; sourceTree = "<group>"; };
-		D874D9C80FA1F53051632DE704321234 /* FMDB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.xcconfig; sourceTree = "<group>"; };
-		E0EAEEFA8AD36A2BF2DC2B73C68F5890 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA7F4524D2AF509C459F6B158E80820C /* FMDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-prefix.pch"; sourceTree = "<group>"; };
-		F0F71FF0833DB53F536450483211F7CD /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = src/fmdb/FMDatabaseAdditions.m; sourceTree = "<group>"; };
-		FA296DC0E25687826F8CB594F359BD14 /* FMResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
+		CAC0377E721AFF68E1633CBDA2999E96 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2B463E6C04F4C9FE917C9C28F7FC82B /* libTouchJSON.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTouchJSON.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E340BF4EFD2829828217EA8D07D9EBFA /* CDataScanner_Extensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDataScanner_Extensions.h; path = Source/Extensions/CDataScanner_Extensions.h; sourceTree = "<group>"; };
+		E4D4C12FFB8203DF60180626D0D3269D /* CJSONSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJSONSerializer.h; path = Source/JSON/CJSONSerializer.h; sourceTree = "<group>"; };
+		E69D9243515E8CE2FECC62115A027B12 /* FMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = src/fmdb/FMDB.h; sourceTree = "<group>"; };
+		E9AF0A65285AB4E1845C24891BC65A86 /* CJSONDeserializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJSONDeserializer.h; path = Source/JSON/CJSONDeserializer.h; sourceTree = "<group>"; };
+		EB19A8E8CB2EC4EB2A10A5D90B269028 /* CJSONSerializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJSONSerializer.m; path = Source/JSON/CJSONSerializer.m; sourceTree = "<group>"; };
+		F4F661FDFE426DAE6BEA6C7E08BF3D0E /* CJSONSerializedData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJSONSerializedData.m; path = Source/Experimental/CJSONSerializedData.m; sourceTree = "<group>"; };
+		F9E8AD54926C9C2FA10E2B15DC75D9D5 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
+		FE70D287565B8EE33E12DDBA06803002 /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		34558EC58B779C2BD9FAF81ECAF0F61D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				36BE2FD561C6F5F18543FC3ED0E2B4CC /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		84AF63084FFE4472EFC6131BD113B13D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				587B76A3E381AF7C3EFFDF6754D39288 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA19A910BD3A42D5471CEBB70DE8F003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61CB38721F678597DCADFFA8055302DC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D23EA4D22747522621630FF2128471F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7FFF59EF4340B70B7DD349E11FAC006 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,15 +149,53 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		05DEDDA30D455CC2728CB39024359B2D /* Support Files */ = {
+		30F06CAF37799F16DCD2ADDF2BE5C73C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D874D9C80FA1F53051632DE704321234 /* FMDB.xcconfig */,
-				6258E712F1089BFF63A6B28B87669F03 /* FMDB-dummy.m */,
-				EA7F4524D2AF509C459F6B158E80820C /* FMDB-prefix.pch */,
+				94102BC55E37ABBDAB22CBA5B06752EF /* FMDB.xcconfig */,
+				2877774362AFE76F8B4E1FFEC51773F0 /* FMDB-dummy.m */,
+				8DA7CAD5E7759AC6FF5A7A99BB807D84 /* FMDB-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/FMDB";
+			sourceTree = "<group>";
+		};
+		4BE352E3D610D981A2C1DE72D3752E10 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				58A19E8125D7A2DFA418BB1CF6E4DC61 /* common */,
+				30F06CAF37799F16DCD2ADDF2BE5C73C /* Support Files */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		58A19E8125D7A2DFA418BB1CF6E4DC61 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				FE70D287565B8EE33E12DDBA06803002 /* FMDatabase.h */,
+				5B96186EAB159CC7240C9E1C492D09AE /* FMDatabase.m */,
+				39F9E8F3CE284341C352BF8529ED0755 /* FMDatabaseAdditions.h */,
+				7C917B59594B6EFC0A090331F57C383F /* FMDatabaseAdditions.m */,
+				35331C9A88C2B569C240496515FC1412 /* FMDatabasePool.h */,
+				AF9FE550B6EA09ECDCC834CD84169A97 /* FMDatabasePool.m */,
+				F9E8AD54926C9C2FA10E2B15DC75D9D5 /* FMDatabaseQueue.h */,
+				2D445E5A5B8B360D1A8AAB19F35CF167 /* FMDatabaseQueue.m */,
+				E69D9243515E8CE2FECC62115A027B12 /* FMDB.h */,
+				4B75E9437E3519106B6E7D0399061F2D /* FMResultSet.h */,
+				8DEC10F837E9A8968052F41F6B34EAF5 /* FMResultSet.m */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+		634F071728C9BFDC4326CDC21DDFD19F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7AE65B6513B5FC1B1F455C035B092771 /* TouchJSON.xcconfig */,
+				18A695C7D0699D85C17175D7F6CEA1C9 /* TouchJSON-dummy.m */,
+				4CD627DE4A84001EA4D47B709B0A59DC /* TouchJSON-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TouchJSON";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -106,8 +203,8 @@
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				BFB8C92E749ED180124155E2270474D2 /* Pods */,
-				CDF1344E9E92C8417899CE037474665F /* Products */,
+				E1E9602F966FF32745D2CD08779EF330 /* Pods */,
+				F9DEF150959C5B174E96C5AE4C860A5D /* Products */,
 				037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -127,24 +224,6 @@
 			path = "Target Support Files/Pods";
 			sourceTree = "<group>";
 		};
-		B7377036971551BCDC2E2584548A576D /* common */ = {
-			isa = PBXGroup;
-			children = (
-				990191AC5970F54BD454007D4FC0B2C3 /* FMDatabase.h */,
-				B3B2DE6BA720930EA5A25DEAD9804D47 /* FMDatabase.m */,
-				B007C91029361327653F7DCE2E7599C0 /* FMDatabaseAdditions.h */,
-				F0F71FF0833DB53F536450483211F7CD /* FMDatabaseAdditions.m */,
-				5696C1F124500924CE065F8CEA33F978 /* FMDatabasePool.h */,
-				475630B9EDA128A2FEA091C9D63AED3F /* FMDatabasePool.m */,
-				AD57EB2E148CBB0484960AFCFB4C7588 /* FMDatabaseQueue.h */,
-				B42D69CD99479A04B6A708D9A1817E54 /* FMDatabaseQueue.m */,
-				CC2AA98E70EF15C6F8A88750F2680320 /* FMDB.h */,
-				FA296DC0E25687826F8CB594F359BD14 /* FMResultSet.h */,
-				B00FE45DA7886136FAD44633735B4DE3 /* FMResultSet.m */,
-			);
-			name = common;
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,35 +240,72 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		BFB8C92E749ED180124155E2270474D2 /* Pods */ = {
+		CAD7ABC2EB05C99F7E23340F983F6F9F /* TouchJSON */ = {
 			isa = PBXGroup;
 			children = (
-				FA26C3825570D0641AC85B4710D11744 /* FMDB */,
+				AFEABEEC36123189FC67BCDA90171A5A /* CDataScanner.h */,
+				549ABB3B2E37E9AEBA1314D79FEE041F /* CDataScanner.m */,
+				E340BF4EFD2829828217EA8D07D9EBFA /* CDataScanner_Extensions.h */,
+				35687539C683CB1E44C28687BA885C51 /* CDataScanner_Extensions.m */,
+				61D0CB7D2E91308D897EB7887404C2CB /* CFilteringJSONSerializer.h */,
+				911252690E18A307ADFC88E0B71BE7C2 /* CFilteringJSONSerializer.m */,
+				E9AF0A65285AB4E1845C24891BC65A86 /* CJSONDeserializer.h */,
+				0C70990D60BED25D05B201EC493B24EB /* CJSONDeserializer.m */,
+				BA0DBEBF2573296A81958234147E10CD /* CJSONScanner.h */,
+				59279A5E303164B2A3DE20412A01D13B /* CJSONScanner.m */,
+				AD341DE9869CFAB1E62C6FE4B7C19AD0 /* CJSONSerialization.h */,
+				8F94853B40E20AD5D5BB32A309733914 /* CJSONSerialization.m */,
+				6B038BD70C7E0F685CB53C05840A757C /* CJSONSerializedData.h */,
+				F4F661FDFE426DAE6BEA6C7E08BF3D0E /* CJSONSerializedData.m */,
+				E4D4C12FFB8203DF60180626D0D3269D /* CJSONSerializer.h */,
+				EB19A8E8CB2EC4EB2A10A5D90B269028 /* CJSONSerializer.m */,
+				9F47E86D97280CB3ED18C7D96240DD11 /* JSONRepresentation.h */,
+				358CB84FE6F218068DC5BBF8B0113806 /* NSDictionary_JSONExtensions.h */,
+				50B11CE7BBD7BBA7BDEB72D670F61ECC /* NSDictionary_JSONExtensions.m */,
+				634F071728C9BFDC4326CDC21DDFD19F /* Support Files */,
+			);
+			path = TouchJSON;
+			sourceTree = "<group>";
+		};
+		E1E9602F966FF32745D2CD08779EF330 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4BE352E3D610D981A2C1DE72D3752E10 /* FMDB */,
+				CAD7ABC2EB05C99F7E23340F983F6F9F /* TouchJSON */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		CDF1344E9E92C8417899CE037474665F /* Products */ = {
+		F9DEF150959C5B174E96C5AE4C860A5D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3FF6CC2D423559E28AE3F55AFFA4CA33 /* libFMDB.a */,
-				E0EAEEFA8AD36A2BF2DC2B73C68F5890 /* libPods.a */,
+				382DF47CB9605E0CE883798BDEDA3023 /* libFMDB.a */,
+				CAC0377E721AFF68E1633CBDA2999E96 /* libPods.a */,
+				D2B463E6C04F4C9FE917C9C28F7FC82B /* libTouchJSON.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		FA26C3825570D0641AC85B4710D11744 /* FMDB */ = {
-			isa = PBXGroup;
-			children = (
-				B7377036971551BCDC2E2584548A576D /* common */,
-				05DEDDA30D455CC2728CB39024359B2D /* Support Files */,
-			);
-			path = FMDB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		0390795BF76F748930F3D2ABE6D69159 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51DD2D0E237F7BC2771B52BD71686E6F /* CDataScanner.h in Headers */,
+				8C0D042D56FA4D10A9773B2C3FC02922 /* CDataScanner_Extensions.h in Headers */,
+				BCFAF11893C21955ADD2E6D4D16B6BD6 /* CFilteringJSONSerializer.h in Headers */,
+				63612D2DB86DA35DA965A1FAE3A63C45 /* CJSONDeserializer.h in Headers */,
+				AD4B60FFDB22DE25177453B6B43E1052 /* CJSONScanner.h in Headers */,
+				81B8ECCAF46DF0051B268D9B4ED7DDE8 /* CJSONSerialization.h in Headers */,
+				7AE4EAA597518C5B392FE51D4CCE767B /* CJSONSerializedData.h in Headers */,
+				A946518328E219EDFECEF842B4F488E3 /* CJSONSerializer.h in Headers */,
+				BD2C9D5E05350AF5B4419925BEDA41C3 /* JSONRepresentation.h in Headers */,
+				9BC8D891F5AA6C3D76CCD7B5A0E2D4BD /* NSDictionary_JSONExtensions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8B2D82357BE4C2A10AB2CD4724B8E654 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -206,21 +322,22 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1B9FA7A5421F72B261CD8F8DC49B18F2 /* Pods */ = {
+		66D0AC0E042A078BF5DA368CE0F306A8 /* Pods */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8ACB97BD5EDEF44FCE62B074055B42CF /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildConfigurationList = 73F277549FEEFB8BF0F0BC8A38C0852F /* Build configuration list for PBXNativeTarget "Pods" */;
 			buildPhases = (
-				0B3C39CF2CF1742494C17C860038E431 /* Sources */,
-				34558EC58B779C2BD9FAF81ECAF0F61D /* Frameworks */,
+				C1BE5DC7B5D25713FA7AA2CE62B24F64 /* Sources */,
+				D23EA4D22747522621630FF2128471F2 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9F76F4C5878AB30C873059B11B19AD2F /* PBXTargetDependency */,
+				630891A4817021BAD574657BBEEC66FC /* PBXTargetDependency */,
+				9DD5584B2FA3CE823F7905E6F4A90009 /* PBXTargetDependency */,
 			);
 			name = Pods;
 			productName = Pods;
-			productReference = E0EAEEFA8AD36A2BF2DC2B73C68F5890 /* libPods.a */;
+			productReference = CAC0377E721AFF68E1633CBDA2999E96 /* libPods.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		9F12FB4A63E20F601CFB2E64A65B57C1 /* FMDB */ = {
@@ -237,7 +354,24 @@
 			);
 			name = FMDB;
 			productName = FMDB;
-			productReference = 3FF6CC2D423559E28AE3F55AFFA4CA33 /* libFMDB.a */;
+			productReference = 382DF47CB9605E0CE883798BDEDA3023 /* libFMDB.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C64A511A83A8F5419CD12027269051F9 /* TouchJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B326682118E2E3B8070DD6CC1206ED6 /* Build configuration list for PBXNativeTarget "TouchJSON" */;
+			buildPhases = (
+				F82E3FFF0497F40F20E0B9814A5A6FEA /* Sources */,
+				CA19A910BD3A42D5471CEBB70DE8F003 /* Frameworks */,
+				0390795BF76F748930F3D2ABE6D69159 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchJSON;
+			productName = TouchJSON;
+			productReference = D2B463E6C04F4C9FE917C9C28F7FC82B /* libTouchJSON.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -257,12 +391,13 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = CDF1344E9E92C8417899CE037474665F /* Products */;
+			productRefGroup = F9DEF150959C5B174E96C5AE4C860A5D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				9F12FB4A63E20F601CFB2E64A65B57C1 /* FMDB */,
-				1B9FA7A5421F72B261CD8F8DC49B18F2 /* Pods */,
+				66D0AC0E042A078BF5DA368CE0F306A8 /* Pods */,
+				C64A511A83A8F5419CD12027269051F9 /* TouchJSON */,
 			);
 		};
 /* End PBXProject section */
@@ -281,38 +416,79 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0B3C39CF2CF1742494C17C860038E431 /* Sources */ = {
+		C1BE5DC7B5D25713FA7AA2CE62B24F64 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4524A1DF4BD3DEC5A5B5B1513654A4D /* Pods-dummy.m in Sources */,
+				CE9F31429A06F27B04026EAD8947233B /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F82E3FFF0497F40F20E0B9814A5A6FEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9139720A86CC1FF4E78587EA87F25B73 /* CDataScanner.m in Sources */,
+				007857B5C68D70C624913051A536C679 /* CDataScanner_Extensions.m in Sources */,
+				97612096A0D4508584A03B7BC29D0588 /* CFilteringJSONSerializer.m in Sources */,
+				2A999F321116D678BDEDD159EC5B9AC6 /* CJSONDeserializer.m in Sources */,
+				F5C1588CEFDA717BC2503723CF6A3E81 /* CJSONScanner.m in Sources */,
+				7A8D15213A29740A747DCB1CC26A52EB /* CJSONSerialization.m in Sources */,
+				D066F85576A54A1EF7CDCF9062F32E88 /* CJSONSerializedData.m in Sources */,
+				9AC2E19009E9988034A7314F2881EC8F /* CJSONSerializer.m in Sources */,
+				0A3BFAFFF08AB003ED586EC46916DAB3 /* NSDictionary_JSONExtensions.m in Sources */,
+				CECBE0EE60C6784FD816E6E605FC2C4A /* TouchJSON-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9F76F4C5878AB30C873059B11B19AD2F /* PBXTargetDependency */ = {
+		630891A4817021BAD574657BBEEC66FC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FMDB;
 			target = 9F12FB4A63E20F601CFB2E64A65B57C1 /* FMDB */;
-			targetProxy = A06AB1643FA0EA023EF72341CB59BE89 /* PBXContainerItemProxy */;
+			targetProxy = CC1AAFC3D7E2EF5635A03C5A24437EA2 /* PBXContainerItemProxy */;
+		};
+		9DD5584B2FA3CE823F7905E6F4A90009 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TouchJSON;
+			target = C64A511A83A8F5419CD12027269051F9 /* TouchJSON */;
+			targetProxy = 69249C4305A2FA8D32638E22AA6EA276 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		01BD9CE55E2BBAABE6EB796C0DF5EBE6 /* Release */ = {
+		0950BBB52DF95399A5A96E68F71ABE5F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */;
+			baseConfigurationReference = 4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1099F834C3D50869DBAB30363DBF3E49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AE65B6513B5FC1B1F455C035B092771 /* TouchJSON.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TouchJSON/TouchJSON-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
@@ -357,14 +533,14 @@
 			};
 			name = Debug;
 		};
-		9FB694DFECD09D3FCA4B78BB1B622E8F /* Debug */ = {
+		AB12AF03AC9AA37BF310727EC37BEAE7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -372,7 +548,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
 		C5A18280E9321A9268D1C80B7DA43967 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -410,7 +586,7 @@
 		};
 		E4B5F495BD67DF619CEF034FBCF15186 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D874D9C80FA1F53051632DE704321234 /* FMDB.xcconfig */;
+			baseConfigurationReference = 94102BC55E37ABBDAB22CBA5B06752EF /* FMDB.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
@@ -428,7 +604,7 @@
 		};
 		E60E09129FBA16F2902AF8748BEC3597 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D874D9C80FA1F53051632DE704321234 /* FMDB.xcconfig */;
+			baseConfigurationReference = 94102BC55E37ABBDAB22CBA5B06752EF /* FMDB.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
@@ -443,6 +619,24 @@
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
+		};
+		F4E69763F161D3EF026992A1A1308C62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AE65B6513B5FC1B1F455C035B092771 /* TouchJSON.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TouchJSON/TouchJSON-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -465,11 +659,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8ACB97BD5EDEF44FCE62B074055B42CF /* Build configuration list for PBXNativeTarget "Pods" */ = {
+		73F277549FEEFB8BF0F0BC8A38C0852F /* Build configuration list for PBXNativeTarget "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9FB694DFECD09D3FCA4B78BB1B622E8F /* Debug */,
-				01BD9CE55E2BBAABE6EB796C0DF5EBE6 /* Release */,
+				0950BBB52DF95399A5A96E68F71ABE5F /* Debug */,
+				AB12AF03AC9AA37BF310727EC37BEAE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B326682118E2E3B8070DD6CC1206ED6 /* Build configuration list for PBXNativeTarget "TouchJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4E69763F161D3EF026992A1A1308C62 /* Debug */,
+				1099F834C3D50869DBAB30363DBF3E49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
