@@ -15,6 +15,7 @@
 .*.swp
 *.xcuserstate
 *.xcuserdatad
+<<<<<<< HEAD
 xcuserdata
 .xcuserstate
 *.xcworkspacedata

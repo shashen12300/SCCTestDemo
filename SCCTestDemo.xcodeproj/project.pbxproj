@@ -145,6 +145,7 @@
 				TargetAttributes = {
 					BE7748781C33CE8300C7BB82 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 7CPSF4ZY6R;
 					};
 				};
 			};
@@ -405,9 +406,15 @@
 			baseConfigurationReference = B348BD4B090C62AD51AEF2FA /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+<<<<<<< HEAD
 				CODE_SIGN_IDENTITY = "iPhone Developer: manning lu (67TRMYTF5L)";
 				INFOPLIST_FILE = SCCTestDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+=======
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SCCTestDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+>>>>>>> 18cee07f5a07330ad3a08a8f07935db57ea6f8bf
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.scc.SCTestDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -420,15 +427,75 @@
 			baseConfigurationReference = DD679222DDF1017AA653041C /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+<<<<<<< HEAD
 				CODE_SIGN_IDENTITY = "iPhone Distribution: manning lu (7CPSF4ZY6R)";
 				INFOPLIST_FILE = SCCTestDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+=======
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SCCTestDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+>>>>>>> 18cee07f5a07330ad3a08a8f07935db57ea6f8bf
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.scc.SCTestDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "9309b54e-bec6-4dc0-8e12-6581a8ecf064";
 			};
 			name = Release;
+		};
+		BE7748981C343CC900C7BB82 /* ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: manning lu (7CPSF4ZY6R)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: manning lu (7CPSF4ZY6R)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "dd87057b-1a92-40f1-b8a7-cf87a125207d";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "ad Hoc";
+		};
+		BE7748991C343CC900C7BB82 /* ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD679222DDF1017AA653041C /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SCCTestDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scc.SCTestDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "dd87057b-1a92-40f1-b8a7-cf87a125207d";
+			};
+			name = "ad Hoc";
 		};
 /* End XCBuildConfiguration section */
 
@@ -438,7 +505,11 @@
 			buildConfigurations = (
 				BE77488E1C33CE8300C7BB82 /* Debug */,
 				BE77488F1C33CE8300C7BB82 /* Release */,
+<<<<<<< HEAD
 				A01559771C34397F0051CB18 /* ad Hoc */,
+=======
+				BE7748981C343CC900C7BB82 /* ad Hoc */,
+>>>>>>> 18cee07f5a07330ad3a08a8f07935db57ea6f8bf
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -448,7 +519,11 @@
 			buildConfigurations = (
 				BE7748911C33CE8300C7BB82 /* Debug */,
 				BE7748921C33CE8300C7BB82 /* Release */,
+<<<<<<< HEAD
 				A01559781C34397F0051CB18 /* ad Hoc */,
+=======
+				BE7748991C343CC900C7BB82 /* ad Hoc */,
+>>>>>>> 18cee07f5a07330ad3a08a8f07935db57ea6f8bf
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
