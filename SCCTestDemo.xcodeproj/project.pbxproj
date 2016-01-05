@@ -145,7 +145,6 @@
 				TargetAttributes = {
 					BE7748781C33CE8300C7BB82 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = 7CPSF4ZY6R;
 					};
 				};
 			};
@@ -303,7 +302,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "b3a925ea-0667-491a-b58b-7db94573e6d5";
+				PROVISIONING_PROFILE = "de1cba18-3d07-4a49-af55-2fa2a0e7b386";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -352,13 +351,13 @@
 			baseConfigurationReference = B348BD4B090C62AD51AEF2FA /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: manning lu (67TRMYTF5L)";
 				INFOPLIST_FILE = SCCTestDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.scc.SCTestDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "b3a925ea-0667-491a-b58b-7db94573e6d5";
+				PROVISIONING_PROFILE = "de1cba18-3d07-4a49-af55-2fa2a0e7b386";
 			};
 			name = Debug;
 		};
@@ -367,9 +366,9 @@
 			baseConfigurationReference = DD679222DDF1017AA653041C /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: manning lu (7CPSF4ZY6R)";
 				INFOPLIST_FILE = SCCTestDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.scc.SCTestDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -421,9 +420,9 @@
 			baseConfigurationReference = DD679222DDF1017AA653041C /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: manning lu (7CPSF4ZY6R)";
 				INFOPLIST_FILE = SCCTestDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.scc.SCTestDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
