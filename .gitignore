@@ -1,3 +1,5 @@
+*~
+.DS_Store
 *.o
 *.lo
 *.la
@@ -13,4 +15,7 @@
 .*.swp
 *.xcuserstate
 *.xcuserdatad
+<<<<<<< HEAD
+xcuserdata
+.xcuserstate
 *.xcworkspacedata

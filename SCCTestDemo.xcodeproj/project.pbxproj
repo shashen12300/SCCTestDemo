@@ -370,9 +370,9 @@
 				INFOPLIST_FILE = SCCTestDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.scc.SCTestDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scc.SCTestDemo1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "9309b54e-bec6-4dc0-8e12-6581a8ecf064";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
